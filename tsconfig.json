@@ -20,19 +20,14 @@
     "types": [
       "cypress"
     ],
+    // "esModuleInterop": true,
     "lib": [
       "ES5",
       "DOM"
     ],
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
   },
   "include": [
     "cypress/**/*.ts"
-  ]
+  ],
 }
-
-
-
-
-
-
